@@ -1,0 +1,276 @@
+.icon{
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(183,183,183);
+}
+ul{
+    list-style: none;
+}
+.backImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    filter: blur(100px);
+    z-index: -1;
+}
+.mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.4);
+    z-index: -1;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+}
+.header>.logo a{
+    font: bold 40px/50px '微软';
+    margin-left: 20px;
+}
+.header>.login a{
+    font: 20px/50px '微软';
+    float: right;
+    margin-right: 20px;
+}
+.header>.set a{
+    font: 20px/50px '微软';
+    float: right;
+    margin-right: 100px;
+}
+.header a:hover{
+    color: white;
+}
+
+.conent{
+    width: 1200px;
+    height: 580px;
+    margin: auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.conent>.musicList{
+    width: 700px;
+    height: 560px;
+    float: left;
+}
+.musicList>.Option{
+    overflow: hidden;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.musicList>.Option li{
+    width: 120px;
+    height: 40px;
+    border: 1px gray solid;
+    float: left;
+    margin: 0 5px;
+    text-align: center;
+    font: 20px/40px arial;
+    color: rgb(183,183,183);
+    cursor: pointer;
+}
+.musicList>.Option li:hover{
+    color: white;
+    border: 1px white solid;
+}
+.musicList>.musicTitle{
+    width: 700px;
+    height: 500px;
+}
+.musicList>.musicTitle li{
+    color: rgb(183,183,183);
+    overflow: hidden;
+    user-select: none;
+    border-bottom: 1px gainsboro solid;
+}
+.musicList>.musicTitle li div{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.musicList>.musicTitle li svg:hover{
+    color: #fff;
+}
+.musicList>.musicTitle .listChecked{
+    margin: 13px 10px 0 15px;
+    width: 12px;
+    height: 12px;
+    border: 1px gray solid;
+}
+.checked{
+    background: url(img/勾.jpg);
+    background-size: 100% 100%;
+}
+.listMusic .listNum{
+    width: 15px;
+    height: 20px !important;
+    margin-top: 10px;
+    line-height: 20px !important;
+}
+.listMusic .sound-w{
+    background: url(img/音浪.gif);
+    background-size: 100% 100%;
+}
+.musicList>.musicTitle .listName{
+    margin-left: 10px;
+    width: 50%;
+}
+.musicList>.musicTitle .singer{
+    width: 30%;
+}
+.listName>svg{
+    float: right;
+    margin-top: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: none;
+}
+.listName>svg:nth-child(2){
+    margin-right: 30px;
+}
+.listTime>svg{
+    margin-top: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+._mCS_1 .mCSB_dragger .mCSB_dragger_bar{
+    width: 8px;
+}
+.conent>.musicMessage{
+    width: 500px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.music-info>.cover{
+    margin: 0 100px;
+    width: 300px;
+    height: 300px;
+}
+.music-info>p{
+    color:rgb(255,255,255,0.5);
+    text-align: center;
+    line-height: 30px;
+}
+.music-info>p>span:hover{
+    cursor: pointer;
+    color:#fff;
+}
+.musicMessage>.musicLrc{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    height: 120px;
+    overflow: hidden;
+}
+.musicMessage>.musicLrc p{
+    text-align: center;
+    color:rgb(183,183,183);
+    font: bold 18px/30px arial;
+}
+
+
+.footer{
+    width: 100%;
+    height: 99px; 
+}
+.footer>.footConent{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.music-play-bar,.music-voice-bar{
+    display: inline-block;
+}
+.footConent>a{
+    font: 40px/100px arial;
+}
+.footConent a:hover{
+    color: #fff;
+}
+.music-play-bar{
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: -15px;
+    color: rgb(183,183,183);
+}
+.nameTime span{
+    float: right;
+}
+.play-bar-length{
+    margin-top: 10px;
+    height: 4px;
+    background-color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+.play-bar-go{
+   width: 0;
+   height: 100%;
+   background-color: #fff;
+}
+.play-bar-to{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    float: right;
+    top: -6px;
+    right: -6px;
+}
+.footConent .music-clear span{
+    margin-left: 5px;
+    font-size: 20px;
+    position: relative;
+    top: -8px;
+}
+.music-voice-bar a{
+    font-size: 30px;
+}
+.voice-bar-length{
+    margin-left: 32px;
+    width: 100px;
+    height: 4px;
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+    top: -19px;
+    cursor: pointer;
+}
+.voice-bar-go{
+    width: 50px;
+   height: 100%;
+   background-color: #fff;
+}
+.voice-bar-to{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: right;
+    position: relative;
+    top: -6px;
+    left: 10px;
+}
+
