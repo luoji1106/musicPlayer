@@ -1,0 +1,51 @@
+{
+  "id": "2209838",
+  "name": "软件图标",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3199658",
+      "name": "贴吧",
+      "font_class": "tieba",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3281060",
+      "name": "优酷",
+      "font_class": "youku",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "3545230",
+      "name": "百度",
+      "font_class": "baidu1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "8619298",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10132243",
+      "name": "新浪",
+      "font_class": "weibo-red",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11369513",
+      "name": "-腾讯",
+      "font_class": "-tengxun",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

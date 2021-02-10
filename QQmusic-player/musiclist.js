@@ -1,7 +1,7 @@
 // 1. 引入express
-const {response,request} = require("express");
+// const {response,request} = require("express");
 const express = require("express");
-const { url } = require("inspector");
+// const { url } = require("inspector");
 
 // 2. 创建应用对象
 const app = express();
